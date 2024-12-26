@@ -1,0 +1,118 @@
+/* General Body Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #00796b;
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+thead {
+    background-color: #009688;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #b2dfdb;
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+td {
+    font-size: 0.95em;
+    color: #555;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+tr:hover {
+    background-color: #e0f2f1;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+button.edit {
+    background-color: #4caf50;
+}
+
+button.edit:hover {
+    background-color: #388e3c;
+}
+
+button.add {
+    background-color: #1976d2;
+}
+
+button.add:hover {
+    background-color: #1565c0;
+}
+
+/* Centering Page Content */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}

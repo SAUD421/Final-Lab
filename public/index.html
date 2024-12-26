@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: 'Helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        h1 {
+            font-size: 3em;
+            color: #009688;
+            margin-top: 50px;
+            font-weight: 600;
+        }
+
+        /* Button Container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        /* Button Styles */
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #009688;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        /* Button Hover Effects */
+        button:hover {
+            background-color: #00796b;
+            transform: scale(1.05);
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            button {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+
+            .button-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Library Management System</h1>
+    <div class="button-container">
+        <button onclick="location.href='/authors.html'">Authors</button>
+        <button onclick="location.href='/books.html'">Books</button>
+        <button onclick="location.href='/borrowers.html'">Borrowers</button>
+    </div>
+</body>
+</html>

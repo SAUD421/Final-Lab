@@ -1,0 +1,14 @@
+http://localhost:3000/books/add
+ http://localhost:3000/books/update/:id
+  http://localhost:3000books/delete/:id
+
+http://localhost:3000/borrowers/add
+http://localhost:3000/borrowers/update/:id
+
+http://localhost:3000/authors/add
+http://localhost:3000/authors/update/:id
+http://localhost:3000/authors/delete/:id
+
+http://localhost:3000/transactions/borrow
+http://localhost:3000/transactions/return
+http://localhost:3000/transactions/authors/more-than-five-books
